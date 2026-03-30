@@ -1,0 +1,22 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+# File import
+```{r}
+CBIO_raw <- read_library(system.file(
+    "extdata",
+    "CBIO",
+    "CBIO_Standards.library",
+    package = "MS1Match"
+  ))
+
+```
+
+# File conversion 
+
+```{r}
+# example: Not Run
+# convert_to_nist_msp(CBIO_raw, "CBIO_Standards.msp", source_lab = "CBIO")
+```
