@@ -11,8 +11,9 @@ are measured.
 
 | File | Description |
 |------|-------------|
-| `library/CBIO_Standards.msp` | Final NIST MSP library file |
-| `library/CBIO_Standards.library` | Original Bruker source file |
+| `library/CBIO_Standards.library` | Original Bruker library file |
+| `library/CBIO_Standards.msp` | Final NIST MSP file |
+
 
 ## Instrument
 
@@ -42,8 +43,6 @@ Collision_energy: 26.4577
 RetentionTime: 918
 InChIKey: KKRXDNYRUZGPFM-UHFFFAOYNA-N
 InChI: ...
-Spectral_entropy: 2.07347
-Quality: CLEAN
 Comments: Contributor=XXX Institute
 Num Peaks: 43
 120.0442 0.1001
@@ -51,20 +50,6 @@ Num Peaks: 43
 ...
 ```
 
-## Spectral Entropy
-
-Spectral entropy is calculated as described in:
-
-> Li, Y. et al. Spectral entropy outperforms MS/MS dot product similarity
-> for small-molecule compound identification. *Nature Methods*, 2021.
-> <https://doi.org/10.1038/s41592-021-01331-z>
-
-Quality flags assigned per entry:
-
-| Flag | Meaning |
-|------|---------|
-| `CLEAN` | Reliable spectrum — entropy above quality threshold |
-| `NOISY` | Low entropy — use with caution |
 
 ## License
 
